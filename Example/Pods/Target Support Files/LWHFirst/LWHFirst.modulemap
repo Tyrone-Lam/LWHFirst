@@ -1,0 +1,6 @@
+framework module LWHFirst {
+  umbrella header "LWHFirst-umbrella.h"
+
+  export *
+  module * { export * }
+}
