@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'LWHFirst_Example' do
+  pod 'LWHFirst', :path => '../'
+
+  target 'LWHFirst_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
