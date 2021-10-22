@@ -1,0 +1,27 @@
+{
+  "name": "LWHFirst",
+  "version": "0.0.1",
+  "summary": "A short description of LWHFirst.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Tyrone/LWHFirst",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Tyrone": "tyrone.lin@ui.com"
+  },
+  "source": {
+    "git": "https://github.com/Tyrone/LWHFirst.git",
+    "tag": "0.0.1"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "source_files": "LWHFirst/Classes/**/*",
+  "resource_bundles": {
+    "LWHFirst": [
+      "LWHFirst/Assets/*.{png,imageset}"
+    ]
+  }
+}
